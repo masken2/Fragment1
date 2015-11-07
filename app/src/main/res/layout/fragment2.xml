@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="我是新的界面"
+        android:background="#00ff00"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="后退键"
+        android:textSize="30sp"
+        android:id="@+id/back"
+        />
+</LinearLayout>
